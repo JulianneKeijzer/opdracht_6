@@ -1,0 +1,191 @@
+main, footer, nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, main, footer, nav {
+    background-color: peachpuff;
+    color:peru;
+    line-height: 1.2em;
+}
+
+header {
+    border: 5px ridge  peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+main {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+footer {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+.center-title-1 {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.center-title-2 {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.image1-style {
+    border: 2px solid peru;
+    width: 300px;
+}
+
+.image2-style {
+    border: 2px solid peru;
+    width: 300px;
+}
+
+.titel1 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.titel2 {
+    font-size:16px;
+}
+
+.tekst {
+    font-size: 14px;
+}
+
+.navigation-links li {
+    display: inline;
+    margin: 175px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.linkstyle-1 {
+    font-size: 14px;
+    font-weight:lighter;
+    display: inline;
+    margin:740px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.linkstyle-2 {
+    font-size: 14px;
+    font-weight:lighter;
+    display: inline;
+    margin:740px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*MEDIA QUERIES */
+
+@media (min-width: 320px) {
+    header, main, footer, nav { 
+        background-color:  rgb(247, 216, 225);
+        color:palevioletred;
+        border-color: palevioletred;
+    }
+    .image1-style {
+        border: 1px solid palevioletred;
+        width: 235px;
+    }
+    .image2-style {
+        border: 1px solid palevioletred;
+        width: 220px;
+    }
+    .titel1 {
+        font-size: 22px;
+    }
+    .center-title-1 {
+        margin: 0 auto;
+        width: 240px;
+    }
+    .center-title-2 {
+        margin: 0 auto;
+        width: 240px;
+    }
+    .titel2 {
+        font-size:14px;
+    }
+    .tekst {
+        font-size: 12px;
+    }
+    .navigation-links li {
+        display: inline;
+        margin: 5px;
+        font-size: 12px;
+    }
+    .linkstyle-1 {
+        font-size: 12px;
+        display: inline;
+        margin:10px;
+    }
+    .linkstyle-2 {
+        font-size: 12px;
+        display: inline;
+        margin:5px;
+    }
+}
+
+@media (min-width: 1024px) {
+    header, main, footer, nav { 
+            background-color: lavender;
+            color:lightslategrey;
+            border-color: lightslategrey;
+            line-height: 1.0em;
+    }
+    .image1-style {
+        border: 2px solid lightslategrey;
+        width: 300px;
+    }
+    .image2-style {
+        border: 2px solid lightslategrey;
+        width: 400px;
+    }
+    .titel1 {
+        font-size: 22px;
+    }
+    .center-title-1 {
+        margin: 0 auto;
+        width: 340px;
+    }
+    .center-title-2 {
+        margin: 0 auto;
+        width: 440px;
+    }
+    .titel2 {
+        font-size:14px;
+    }
+    .tekst {
+        font-size: 12px;
+    }
+    .navigation-links li {
+        display: inline;
+        margin: 50px;
+        font-size: 12px;
+    }
+    .linkstyle-1 {
+        font-size: 12px;
+        display: inline;
+        margin: 350px;
+    }
+    .linkstyle-2 {
+        font-size: 12px;
+        display: inline;
+        margin: 320px;
+    }
+}
+
